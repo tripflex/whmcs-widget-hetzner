@@ -1,0 +1,21 @@
+WHMCS - Hetzner widget is a WHMCS widget developed by Hostdog to display your Hetzner servers information.
+
+It features a 10 columns table to display server's:
+
+IP
+Server name
+Type (Product)
+Datacenter
+Status
+Due Date (next payment date)
+Bandwidth In
+Bandwidth Out
+Bandwidth In & Out Compined
+Bandwidth Limit
+How to Install
+
+Extract it in WHMCS-PATH/modules/widgets/
+Go and setup the widget to appear under Setup -> Administrator Roles
+Hetzner has 50 requests per 1 hour limit to the traffic API command, so if you see your bandwidth statistics reset it's because of this limit (or it's just the 1st minute of the month).
+
+This is an open-source software. It is free for download. There is no guarantee or support for it!
